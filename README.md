@@ -12,8 +12,9 @@
   <a href="https://huggingface.co/datasets/zjukg/CORTEX"><img src="https://img.shields.io/badge/Hugging_Face-Dataset-FFD21E.svg" alt="Hugging Face Dataset"></a>
 </p>
 
-> [!IMPORTANT]
-> **Dataset:** The complete CORTEX dataset is available on [Hugging Face](https://huggingface.co/datasets/zjukg/CORTEX).
+<p align="center">
+  📦 <strong>Dataset Access:</strong> The complete CORTEX dataset is available on <a href="https://huggingface.co/datasets/zjukg/CORTEX">Hugging Face</a>.
+</p>
 
 ## Abstract
 

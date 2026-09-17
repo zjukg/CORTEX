@@ -12,8 +12,9 @@
   <a href="https://huggingface.co/datasets/zjukg/CORTEX"><img src="https://img.shields.io/badge/Hugging_Face-Dataset-FFD21E.svg" alt="Hugging Face 数据集"></a>
 </p>
 
-> [!IMPORTANT]
-> **数据集：** 完整的 CORTEX 数据集已发布在 [Hugging Face](https://huggingface.co/datasets/zjukg/CORTEX)。
+<p align="center">
+  📦 <strong>数据集获取：</strong>完整的 CORTEX 数据集已发布在 <a href="https://huggingface.co/datasets/zjukg/CORTEX">Hugging Face</a>。
+</p>
 
 ## 摘要
 

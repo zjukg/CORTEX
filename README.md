@@ -12,6 +12,9 @@
   <a href="https://huggingface.co/datasets/zjukg/CORTEX"><img src="https://img.shields.io/badge/Hugging_Face-Dataset-FFD21E.svg" alt="Hugging Face Dataset"></a>
 </p>
 
+> [!IMPORTANT]
+> **Dataset:** The complete CORTEX dataset is available on [Hugging Face](https://huggingface.co/datasets/zjukg/CORTEX).
+
 ## Abstract
 
 The continuous evolution of large language models drives escalating demands on data scale and quality, and as different training stages impose increasingly tailored data requirements, systematic organization of high-quality corpora becomes indispensable. Existing corpus construction pipelines confine the resulting corpora to flat, undifferentiated document collections, universally lacking systematic knowledge organization. We present Cortex, to our knowledge the first framework that elevates web-scale corpus construction from flat document filtering to structured knowledge organization through an Ontological Corpus Graph (OCG), a three-layer heterogeneous structure unifying a quality-refined content layer, a hierarchical lightweight ontology layer via LLM-driven automated evolution, and a cross-domain alignment layer enabling inter-domain association at arbitrary taxonomic resolution. Comprehensive experiments confirm the effectiveness of Cortex. In particular, we leverage the OCG to synthesize CortexBench, a cross-domain search-and-reasoning benchmark whose evaluation across eight frontier LLMs validates the effectiveness of quality refinement, domain organization, and cross-domain data synthesis. We will publicly release the complete codebase, a 24.14B-token refined corpus with its OCG, and CortexBench.

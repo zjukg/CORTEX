@@ -12,6 +12,9 @@
   <a href="https://huggingface.co/datasets/zjukg/CORTEX"><img src="https://img.shields.io/badge/Hugging_Face-Dataset-FFD21E.svg" alt="Hugging Face 数据集"></a>
 </p>
 
+> [!IMPORTANT]
+> **数据集：** 完整的 CORTEX 数据集已发布在 [Hugging Face](https://huggingface.co/datasets/zjukg/CORTEX)。
+
 ## 摘要
 
 大语言模型的持续演进不断提高对数据规模和质量的要求，而不同训练阶段提出日益定制化的数据需求，因此对高质量语料进行系统化组织变得不可或缺。现有语料构建流程将得到的语料限制在扁平、无差别的文档集合中，普遍缺乏系统性的知识组织。我们提出 CORTEX，据我们所知，这是首个通过本体语料图（Ontological Corpus Graph，OCG）将 Web 规模语料构建从扁平文档过滤提升为结构化知识组织的框架。OCG 是一个三层异构结构，统一了高质量内容层、通过大语言模型驱动的自动演化构建的层次化轻量本体层，以及支持任意分类层级跨领域关联的跨领域对齐层。综合实验验证了 CORTEX 的有效性。特别是，我们利用 OCG 合成了 CORTEXBench——一个跨领域搜索与推理基准；在八个前沿大语言模型上的评测验证了质量精炼、领域组织和跨领域数据合成的有效性。我们将公开完整代码库、带有 OCG 的 24.14B-token 精炼语料和 CORTEXBench。
